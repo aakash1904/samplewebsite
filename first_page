@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.navbar5 {
+
+  overflow: hidden;
+  background-color: #6b6b47;
+  position: relative;
+  left: 0%;
+  top: 5%;
+  width: 100%;
+}
+
+.navbar6 {
+  padding: 106px;
+  overflow: hidden;
+  background-color: #6b6b47;
+  position: relative;
+  left: 18%;
+}
+.nav2 {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  left: 70%;
+  top: 2%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.main {
+
+  margin-top: 40px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+.imgholder {
+  position: fixed;
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+</style>
+</head>
+<body bgColor="#84e1e1">
+<script>
+
+function over(){
+  document.getElementById('demo').style.color='red';
+}
+function out(){
+  document.getElementById('demo').style.color='white';
+}
+function over1(){
+  document.getElementById('demo1').style.color='red';
+}
+function out1(){
+  document.getElementById('demo1').style.color='white';
+}
+function over2(){
+  document.getElementById('demo2').style.color='red';
+}
+function out2(){
+  document.getElementById('demo2').style.color='white';
+}
+
+
+</script>
+<div class="navbar">
+  <a href="#home"><img src="img1.jpg" alt="infosys" width="42" height="42" align="left"></a>
+<div class="nav2">
+  <a id="demo" onmouseover="over()" onmouseout="out()" href="#home">Home</a>
+  <a id="demo1" onmouseover="over1()" onmouseout="out1()" href="#news">Contacts</a>
+  <a id="demo2" onmouseover="over2()" onmouseout="out2()" href="#contact">Information</a>
+</div>
+</div>
+
+<div class="main">
+  <div class="navbar5">
+  <div class="navbar6">
+    <img src="img1.jpg" alt="infosys" width="680" height="200" align="center">
+  </div>
+  </div>
+</div>
+
+</body>
+</html>

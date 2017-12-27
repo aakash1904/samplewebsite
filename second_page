@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar5 {
+
+  overflow: hidden;
+  background-color: #1ab2ff;
+  opacity: 1;
+  position: relative;
+  left: 0%;
+  top: 5%;
+  width: 100%;
+}
+
+.navbar6 {
+  padding: 50px;
+  overflow: hidden;
+  background-color: #1ab2ff;
+  position: relative;
+  margin-left: 18%;
+}
+.nav2 {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  left: 70%;
+  top: 2%;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index: 1;
+}
+
+.main1 {
+
+  margin-top: 90px;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #8A231C;
+}
+
+.list1 {
+  position: relative;
+  text-align: absolute;
+  font-family: Times,Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  color: #8A231C;
+}
+body{
+  background-color: #b3d9ff;
+}
+</style>
+</head>
+<body>
+<script>
+
+function over(){
+  document.getElementById('demo').style.color='red';
+}
+function out(){
+  document.getElementById('demo').style.color='white';
+}
+function over1(){
+  document.getElementById('demo1').style.color='red';
+}
+function out1(){
+  document.getElementById('demo1').style.color='white';
+}
+function over2(){
+  document.getElementById('demo2').style.color='red';
+}
+function out2(){
+  document.getElementById('demo2').style.color='white';
+}
+
+
+</script>
+<div class="navbar">
+  <a href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite.html#home"><img src="akki6.png" alt="infosys" width="132" height="42" align="left"></a>
+<div class="nav2">
+  <a id="demo" onmouseover="over()" onmouseout="out()" href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite.html">Home</a>
+  <a id="demo1" onmouseover="over1()" onmouseout="out1()" href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite2.html">Contacts</a>
+  <a id="demo2" onmouseover="over2()" onmouseout="out2()" href="#information">Information</a>
+</div>
+</div>
+
+<div class="main">
+  <div class="main1">
+  <h1>Members of PE/RS</h1>
+  </div>
+  <div class="list1">
+  <ul>
+    <li><a href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite3.html"><img src="new.jpg" alt="aakash" hright="40" width="90"></a></li>
+    <li><a href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite3.html"><img src="shivay.png" alt="aakash" hright="40" width="90"></a></li>
+    <li>auro</li>
+  </ul>
+  </div>
+
+</div>
+
+</body>
+</html>

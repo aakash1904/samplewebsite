@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar5 {
+
+  overflow: hidden;
+  background-color: #1ab2ff;
+  opacity: 1;
+  position: relative;
+  left: 0%;
+  top: 5%;
+  width: 100%;
+}
+
+.navbar6 {
+  padding: 50px;
+  overflow: hidden;
+  background-color: #1ab2ff;
+  position: relative;
+  margin-left: 18%;
+}
+.nav2 {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  left: 70%;
+  top: 2%;
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  z-index: 1;
+}
+
+.main {
+
+  margin-top: 40px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.text {
+  position: static;
+  text-align: absolute;
+  font-family: Times,Arial, Helvetica, sans-serif;
+  font-size: 200%;
+  margin-top: 100px;
+  margin-left: 43%;
+  text-decoration: underline;
+  color: #8A231C;
+}
+.text2 {
+  position: relative;
+  text-align: left;
+  font-family: Times,Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin-top: 50px;
+  margin-left: 2%;
+  color: black;
+}
+body{
+  background-color: #b3d9ff;
+}
+</style>
+</head>
+<body>
+<script>
+
+function over(){
+  document.getElementById('demo').style.color='red';
+}
+function out(){
+  document.getElementById('demo').style.color='white';
+}
+function over1(){
+  document.getElementById('demo1').style.color='red';
+}
+function out1(){
+  document.getElementById('demo1').style.color='white';
+}
+function over2(){
+  document.getElementById('demo2').style.color='red';
+}
+function out2(){
+  document.getElementById('demo2').style.color='white';
+}
+
+
+</script>
+<div class="navbar">
+  <a href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite.html"><img src="akki6.png" alt="infosys" width="132" height="42" align="left"></a>
+<div class="nav2">
+  <a id="demo" onmouseover="over()" onmouseout="out()" href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite.html">Home</a>
+  <a id="demo1" onmouseover="over1()" onmouseout="out1()" href="file:///C:/Users/aakash.tiwari/Desktop/js/samplewebsite2.html">Contacts</a>
+  <a id="demo2" onmouseover="over2()" onmouseout="out2()" href="#information">Information</a>
+</div>
+</div>
+
+<div class="main">
+  <div class="navbar5">
+  <div class="navbar6">
+    <img src="akki8.jpg" alt="infosys" width="780" height="350" align="center">
+  </div>
+  </div>
+  <div class="text">
+  <h1>PE/RS</h1>
+  </div>
+  <div class="text2">
+    <p>
+      Infosys was established by 7 engineers in Pune, India with an initial capital of $250 in 1981.[8] It was registered
+      as Infosys Consultants Private Limited on July 2, 1981.[9] In 1983, it relocated its office to Bengaluru.
+      Name Change: The company changed its name to Infosys Technologies Private Limited in April 1992 and to Infosys Technologies
+      Limited when it became a public limited company in June 1992. It was later renamed to Infosys Limited in June 2011.[10]
+      Share listing:An initial public offer (IPO) in February 1993 with an offer price of ₹95 (equivalent to ₹480 or US$7.50
+      in 2016) per share against book value of ₹20 (equivalent to ₹100 or US$1.60 in 2016) per share. The Infosys IPO was under
+      subscribed but it was "bailed out" by US investment bank Morgan Stanley which picked up 13% of equity at the offer price.[11]
+      Its shares were listed in stock exchanges in June 1993 with trading opening at ₹145 (equivalent to ₹740 or US$11 in 2016) per
+      share.[12]
+      Its shares were listed on NASDAQ in 1999 through ADR route. The share price surged to ₹8,100
+      (equivalent to ₹24,000 or US$380 in 2016) by 1999 making it the costliest share on the market at the time. At that time,
+      Infosys was among the 20 biggest companies by market capitalization on the NASDAQ.[11] The ADR listing was shifted from NASDAQ
+      to NYSE Euronext to give its European investors better access to its stock.[13]
+      Accusation of visa fraud
+In 2011, Infosys was accused of committing visa fraud by using B-1 (visitor) visas for work requiring H-1B (work) visas. The allegations were initially made by an American employee of Infosys in an internal complaint. He subsequently sued the company, claiming that he was harassed and sidelined after speaking out. Although that case was dismissed,[73] it along with another similar case,[74][75][76] brought the allegations to the notice of the US authorities — and the U.S. Department of Homeland Security and a federal grand jury started investigating.[77]
+
+In October 2013, Infosys agreed to settle the civil suit with US authorities by paying US$34 million.[78] Infosys refused to admit guilt and stressed that it only agreed to pay the fine to avoid the nuisance of 'prolonged litigation'.[79] In its statement the company said "As reflected in the settlement, Infosys denies and disputes any claims of systemic visa fraud, misuse of visas for competitive advantage, or immigration abuse. Those claims are assertions that remain unproven".[80]
+
+Displacement of American workers at Southern California Edison and Disney
+In 2015, the Department of Labor began an investigation of Infosys after claims were made that the company used workers with H-1B visas to replace workers at Disney and Southern California Edison. Florida Sen. Bill Nelson also asked the Department of Homeland Security to investigate reports of layoffs at Disney.[81] The investigation did not find any wrongdoing.[82]
+Infosys was established by 7 engineers in Pune, India with an initial capital of $250 in 1981.[8] It was registered as Infosys Consultants Private Limited on July 2, 1981.[9] In 1983, it relocated its office to Bengaluru.
+
+Name Change: The company changed its name to Infosys Technologies Private Limited in April 1992 and to Infosys Technologies Limited when it became a public limited company in June 1992. It was later renamed to Infosys Limited in June 2011.[10]
+
+Share listing:An initial public offer (IPO) in February 1993 with an offer price of ₹95 (equivalent to ₹480 or US$7.50 in 2016) per share against book value of ₹20 (equivalent to ₹100 or US$1.60 in 2016) per share. The Infosys IPO was under subscribed but it was "bailed out" by US investment bank Morgan Stanley which picked up 13% of equity at the offer price.[11] Its shares were listed in stock exchanges in June 1993 with trading opening at ₹145 (equivalent to ₹740 or US$11 in 2016) per share.[12]
+
+Its shares were listed on NASDAQ in 1999 through ADR route. The share price surged to ₹8,100 (equivalent to ₹24,000 or US$380 in 2016) by 1999 making it the costliest share on the market at the time. At that time, Infosys was among the 20 biggest companies by market capitalization on the NASDAQ.[11] The ADR listing was shifted from NASDAQ to NYSE Euronext to give its European investors better access to its stock.[13]
+
+
+Infosys, Bengaluru
+Revenue growth: Its annual revenue touched US$100 million in 1999, US$1 billion in 2004 and US$10 billion in 2017.[9]
+
+Geographical expansion: In 2012, Infosys announced a new office in Milwaukee, Wisconsin to service Harley-Davidson, being the 18th international office in the United States.[14][15] Infosys hired 1,200 United States employees in 2011, and expanded the workforce by an additional 2,000 employees in 2012.[15]
+
+Product and portfolio expansion: In July 2014, Infosys started a product subsidiary called, EdgeVerve Systems., focusing on enterprise software products for business operations, customer service, procurement and commerce network domains.[16] In August 2015, the Finacle Global Banking Solutions assets were officially transferred from Infosys and became part of the product company EdgeVerve Systems product portfolio.[17]
+   </p>
+</div>
+
+</body>
+</html>
